@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -12,20 +11,18 @@
         </head>
         <body>
             <div id="blocpage">
-                <header>
-                    <div class="top">
-                        <div id="logo">
-                            <img src="images/logo/Reservia@3x.png" alt="logo Reservia">
-                        </div>
-                        <nav id=" navigation">
-                            <ul id="lien">
-                                <li><a href="#">Hébergements</a></li>
-                                <li><a href="#">Activités</a></li>
-                                <li><a href="#">S'inscrire</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </header>
+                 <main class="main">
+            <!-- HEADER -->
+  <header class="header">
+    <img class="headerImg" src="images/logo/Reservia@3x.png" alt="Logo Reservia">
+    <nav class="headerNav">
+      <a class="Lien" href="#hosting" data-active="true">Hébergement</a>
+      <a class="Lien2" href="#activity" data-active="false">Activités</a>
+    </nav>
+    <a class="Inscription" href="#">S'inscrire</a>
+  </header>
+  <!-- HEADER -->
+
                 <div id="entete">
                     <div>
                         <h2 id="title">Trouvez votre hébergements pour des vacances de rêve</h2>
@@ -40,23 +37,46 @@
                         <form class="searchbar">
                             <button id="map"><i class="fas fa-map-marker-alt"></i></button>
                             <input type="search" name="q" placeholder="Marseille,France" id="recherche">
-                            <button id="button"> Rechercher</button>
+                            <button id="button">
+
+
+                             <span id="Boutonrecherche">Rechercher</span>
+                                <i class="SearchIcon fas fa-search"></i>
+
+                         </button>
                         </form>
                     </div>
                     <!-- div class="filtre" -->
-                    <div class="list-group">
-                        <p>
-                            Filtres
-                        </p>
-                        <i class="fas fa-money-bill-wave "></i>
-                        <a href="#"  id="eco">Economique</a>
-                        <i class="fas fa-child fa-lg"></i>
-                        <a href="#" id="familial">Familial</a>
-                        <i class="fas fa-heart"></i>
-                        <a href="#" class="list-item" id="romantique"> Romantique</a>
-                        <i class="fas fa-dog fa-lg"></i>
-                        <a href="#" class="list-item" id="animaux">Animaux autorisés</a>
-                    </div>
+                       <div class="ConteneurFiltres">
+        <h2 class="FiltreTitre">Filtres</h2>
+        <div class="Filtres">
+          <div class="Filtreicon">
+            <i class="fas fa-money-bill-wave "></i>
+          </div>
+          <span class="EcoTitre">Économique</span>
+        </div>
+
+        <div class="Filtres">
+          <div class="Filtreicon">
+            <i class="fas fa-child "></i>
+          </div>
+          <span class="EcoTitre">Familial</span>
+        </div>
+
+        <div class="Filtres">
+          <div class="Filtreicon">
+            <i class="fas fa-heart "></i>
+          </div>
+          <span class="EcoTitre">Romantique</span>
+        </div>
+
+        <div class="Filtres">
+          <div class="Filtreicon">
+            <i class="fas fa-dog "></i>
+          </div>
+          <span class="EcoTitre">Animaux autorisés</span>
+        </div>
+      </div>
                     <p class="paragraphe">
                         <i class="fas fa-info"></i>
                         Plus de 500 logements sont disponibles dans cette ville
@@ -160,6 +180,9 @@
                                 <h2 class="title3"> Afficher plus </h2>
                             </div>
                         </div>
+
+                        <!-- Populaire-->
+
                         <div class="col-4">
                             <div class="color-grey-populaire">
                                 <h2 class="title2"> Les plus Populaires</h2>
@@ -218,8 +241,54 @@
                         <!-- fin de row -->
                     </section>
                     <!-- fin de section -->
-                    
+       
+       <!-- Activité -->
+    <section>
+ 
+        <div id="conteneur">
+           <h2 class="ActivityTitle">Activités à Marseille</h2>
+            <div class="box box1">
+                <a href="#">
+                    <img src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
+                    <h3>Vieux Port</h3>
+                </a>
+            </div>
+            <div class="box box2">
+                <a href="#">
+                    <img src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
+                      <h3>Fort de Pomègues</h3>
+                </a>
+            </div>
+            <div class="box box3">
+                <a href="#">
+                    <img src="images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg">
+                       <h3>Îles de Frioul</h3>
+                </a>
+            </div>
+            <div class="box box4">
+                <a href="#">
+                    <img src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg">
+                      <h3>Parc National des Calanques</h3>
+                </a>
+            </div>
+            <div class="box box5">
+                <a href="#">
+                    <img src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg">
+                       <h3>Notre-Dame-de-la-Garde</h3>
+                </a>
+            </div>
+            <div class="box box6">
+                <a href="#">
+                    <img src="images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg">
+                       <h3>Parc Longchamp</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+                     </main><!-- MAIN --
                     </body>
                 </html>
-
 
