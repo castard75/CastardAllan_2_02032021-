@@ -64,19 +64,10 @@ grid-template-areas: "logo . navbar button";
     font-family: 'Raleway', sans-serif;
 
     text-decoration: none;
-}
-
-.Lien[data-active="true"] {
-    color: #0065FC;  
+      color: #0065FC;  
     border-top: 3px solid #0065FC;
-
-
 }
 
-.Lien[data-active="true"]a {
-
-    text-decoration: none;
-}
 
 
 .Lien2 {
@@ -93,13 +84,13 @@ color: black;
 .Lien2[data-active="true"] {
     color: #0065FC;  
     border-top: 3px solid #0065FC;
-
+  text-decoration: none;
 
 }
 
 .Lien2[data-active="true"]a {
 
-    text-decoration: none;
+  
 }
 .Inscription{
    display: flex;
@@ -114,10 +105,7 @@ color: #0065FC;
 
 }
 
-.Lien2:hover {
-    border-top: 3px solid #0065FC;
-    color: #0065FC;
-    }
+
 
 
 nav ul {
@@ -1091,7 +1079,7 @@ padding-right: 20px;
 
 /* Media */
 
-@media (max-width: 411px) 
+@media (max-width: 410px) 
 
 
 {   
@@ -1311,6 +1299,14 @@ grid-template-areas: "logo . button" "navbar navbar navbar";
 
 }
 
+.headerNav {
+
+    display: flex;
+    align-items: center;
+    grid-area:navbar;
+
+}
+
 
 .Inscription {
     grid-area: initial;
@@ -1320,12 +1316,25 @@ grid-template-areas: "logo . button" "navbar navbar navbar";
     font-family: 'Raleway', sans-serif;
     color: #0065FC;
     margin: auto;
+    order: 1;
 }
 
 #entete {
     margin: 30px 0px 0px 15px;
     font-family: 'Raleway', sans-serif;
 }
+
+
+.Lien {
+    color: #0065FC;
+    border-bottom: 3px solid #0065FC;
+    border-top: inherit;
+}
+.Lien2:hover {
+    border-bottom: 3px solid #D9DBDE;
+color: #0065FC;
+    }
+
 }
 
 
@@ -1557,6 +1566,11 @@ grid-template-areas: "logo . button" "navbar-start navbar-end navbar-end";
     color: #0065FC;
     margin: auto;
 }
+
+.Lien2:hover {
+    border-top: 3px solid #0065FC;
+    color: #0065FC;
+    }
 }
 
 @media (min-width: 600px) and (max-width: 708px){
@@ -1798,7 +1812,10 @@ font-family: 'Raleway', sans-serif;
     color: #0065FC;
 
 }
-
+.Lien2:hover {
+    border-top: 3px solid #0065FC;
+    color: #0065FC;
+    }
 }
 
 
@@ -1844,7 +1861,10 @@ margin-bottom: 20px;
 }
 
 
-
+.Lien2:hover {
+    border-top: 3px solid #0065FC;
+    color: #0065FC;
+    }
 
 .image1 {
 
@@ -1979,6 +1999,11 @@ i.fas.fa-search {
 
     padding-left: 40%;
 }
+
+.Lien2:hover {
+    border-top: 3px solid #0065FC;
+    color: #0065FC;
+    }
 }
 
 
@@ -2145,7 +2170,10 @@ i.fas.fa-search {
     padding-left: 40%;
 }
 
-
+.Lien2:hover {
+    border-top: 3px solid #0065FC;
+    color: #0065FC;
+    }
 }
 
 
@@ -2359,6 +2387,11 @@ i.fas.fa-search {
 
     padding-left: 40%;
 }
+
+.Lien2:hover {
+    border-top: 3px solid #0065FC;
+    color: #0065FC;
+    }
 
 
 }
