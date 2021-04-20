@@ -7,6 +7,7 @@ html {
 body {
 
     font-family: "Raleway", "Sans serif";
+    margin: 0;
 }
 
 
@@ -576,7 +577,7 @@ font-size: 15px;
 
    font-size: 30px;
 
-
+cursor: pointer;
 }
 
 
@@ -696,6 +697,12 @@ margin-bottom: 6px;
 
 }
 
+.image1:hover {
+transform: scale(1.02);
+transition-duration: 0.2s;
+
+}
+
 .text-blue {
     color: blue;
     
@@ -795,6 +802,14 @@ padding-left: 5%;
 
 
 }
+
+
+.image2:hover {
+transform: scale(1.02);
+transition-duration: 0.2s;
+
+}
+
 
 .text-blue {
     color: blue;
@@ -1060,6 +1075,10 @@ margin-left: 65px;
     list-style-type: none;
 }
 
+.linkfooter li a:hover {
+    text-decoration-line: underline;
+}
+
 .colone1 {
 
 padding-right: 20px;
@@ -1070,6 +1089,63 @@ padding-right: 20px;
 
     margin-right: 420px;
 }
+
+
+/* Footer */
+
+.row2 {
+ background-color: #F2F2F2;
+height: 200px;
+}
+
+
+.container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+
+
+
+.title6 {
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+margin-left: 65px;
+
+   }
+
+
+.linkfooter li a {
+  text-decoration-line: none;
+  color: black;
+  
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+.linkfooter {
+
+    line-height: 2.1em;
+    padding-left: 65px;
+    list-style-type: none;
+}
+
+.colone1 {
+
+padding-right: 20px;
+}
+
+.colone2 {
+
+
+    margin-right: 420px;
+}
+
 
 
 
@@ -1215,7 +1291,12 @@ margin-top: 4px;
     border-radius: 2rem;
     margin-bottom: 1rem;
     font-weight: bold;
+    cursor: pointer;
 }
+
+
+
+
 
 .Filtreicon {
 
@@ -1334,6 +1415,36 @@ grid-template-areas: "logo . button" "navbar navbar navbar";
     border-bottom: 3px solid #D9DBDE;
 color: #0065FC;
     }
+
+     .row2 {
+
+        height: 100%;
+      }  
+.container {
+    display: flex;
+    justify-content: space-between;
+     align-items: start;
+    padding-top: 15px;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: -30px;
+   
+}
+
+.colone1 {
+    padding-right: 0;
+}
+
+.colone2 {
+    margin-right: 0;
+}
+
+.Filtres:hover 
+{
+
+background-color: #F6FAFF;
+
+}
 
 }
 
@@ -1472,6 +1583,7 @@ margin-top: 4px;
     border-radius: 2rem;
     margin-bottom: 1rem;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .Filtreicon {
@@ -1571,9 +1683,36 @@ grid-template-areas: "logo . button" "navbar-start navbar-end navbar-end";
     border-top: 3px solid #0065FC;
     color: #0065FC;
     }
+
+
+          .row2 {
+
+         height: 100%;
+      }  
+.container {
+    display: flex;
+    justify-content: space-between;
+     align-items: start;
+    padding-top: 15px;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: -30px;
 }
 
-@media (min-width: 600px) and (max-width: 708px){
+
+.Filtres:hover 
+{
+
+background-color: #F6FAFF;
+
+}
+}
+
+
+
+
+
+@media (min-width: 600px) and (max-width: 709px){
 
 
     .col-8 {
@@ -1703,6 +1842,7 @@ margin-top: 4px;
     border-radius: 2rem;
     margin-bottom: 1rem;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .Filtreicon {
@@ -1816,6 +1956,24 @@ font-family: 'Raleway', sans-serif;
     border-top: 3px solid #0065FC;
     color: #0065FC;
     }
+
+    .row2 {
+    background-color: #F2F2F2;
+    height: 100%;
+}
+
+.container {
+margin-right: -42%;
+align-items: inherit;
+}
+
+
+.Filtres:hover 
+{
+
+background-color: #F6FAFF;
+
+}
 }
 
 
@@ -1824,7 +1982,7 @@ font-family: 'Raleway', sans-serif;
 
 
 
-@media (min-width: 709px) and (max-width: 992px){
+@media (min-width: 710px) and (max-width: 992px){
 
 
     .col-8 {
@@ -1900,7 +2058,7 @@ margin: 10px;
 
     row-gap: 2rem;
 grid-template-columns: repeat(2, 1fr);
-grid-template-rows: auto 14rem 14rem 14rem;
+grid-template-rows: auto 14rem 14rem 14rem auto;
 display: grid;
 }
 
@@ -1951,6 +2109,7 @@ margin-top: 4px;
     border-radius: 2rem;
     margin-bottom: 1rem;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .Filtreicon {
@@ -2004,6 +2163,26 @@ i.fas.fa-search {
     border-top: 3px solid #0065FC;
     color: #0065FC;
     }
+
+    .row2 {
+    background-color: #F2F2F2;
+    height: 100%;
+}
+
+.container {
+margin-right: -42%;
+align-items: inherit;
+padding-top: inherit;
+}
+
+
+
+.Filtres:hover 
+{
+
+background-color: #F6FAFF;
+
+}
 }
 
 
@@ -2064,8 +2243,10 @@ margin: 10px;
        display: grid;
 grid-template-columns: repeat(2, 1fr);
 grid-auto-rows: 100px;
-grid-template-rows: auto 14rem 14rem 14rem 14rem;
+grid-template-rows: auto 14rem 14rem 14rem 2rem;
 column-gap: 2rem;
+    
+
     }
    
 .box h3 {
@@ -2119,6 +2300,7 @@ margin-top: 4px;
     border-radius: 2rem;
     margin-bottom: 1rem;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .Filtreicon {
@@ -2174,6 +2356,36 @@ i.fas.fa-search {
     border-top: 3px solid #0065FC;
     color: #0065FC;
     }
+
+    .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 15px;
+}
+
+
+    .row2 {
+    background-color: #F2F2F2;
+    height: 100%;
+}
+
+.colone2 {
+    margin-right: inherit;
+    padding-right: 65px;
+}
+
+.colone1 {
+    padding-right: 75px;
+}
+
+.Filtres:hover 
+{
+
+background-color: #F6FAFF;
+
+}
+
 }
 
 
@@ -2224,12 +2436,26 @@ i.fas.fa-search {
         grid-row-end: 7;
     }
 
+    .box1:hover {
+        transform: scale(1.02);
+        transition-duration: 0.2s;
+
+
+    }
+
+
     .box2 {
         grid-column-start: 2;
         grid-row-start: 2;
         grid-row-end: 6;
     }
 
+  .box2:hover {
+        transform: scale(1.02);
+        transition-duration: 0.2s;
+
+
+    }
 
     .box3 {
         grid-column-start: 2;
@@ -2237,10 +2463,24 @@ i.fas.fa-search {
 grid-row: 6/7;
     }
 
+      .box3:hover {
+        transform: scale(1.02);
+        transition-duration: 0.2s;
+
+
+    }
+
     .box4 {
         grid-column-start: 3;
         grid-row-start: 2;
         grid-row-end: 7;
+    }
+
+  .box4:hover {
+        transform: scale(1.02);
+        transition-duration: 0.2s;
+
+
     }
 
 
@@ -2250,6 +2490,14 @@ grid-row: 6/7;
         grid-row-end: 4;
     }
 
+  .box5:hover {
+        transform: scale(1.02);
+        transition-duration: 0.2s;
+
+
+    }
+
+
 
     .box6 {
         grid-column-start: 4;
@@ -2257,6 +2505,13 @@ grid-row: 6/7;
         grid-row-end: 7;
     }
 
+
+     .box6:hover {
+        transform: scale(1.02);
+        transition-duration: 0.2s;
+
+
+    }
 
     .image {
 
@@ -2344,7 +2599,16 @@ margin-top: 4px;
     border-radius: 2rem;
     margin-bottom: 1rem;
     font-weight: bold;
+    cursor: pointer;
 }
+
+.Filtres:hover 
+{
+
+background-color: #F6FAFF;
+
+}
+
 
 .Filtreicon {
 
@@ -2393,6 +2657,16 @@ i.fas.fa-search {
     color: #0065FC;
     }
 
+.colone1 {
+    padding-right: 70px;
+}
+
+
+.colone {
+
+
+    padding-left: 40px;
+}
 
 }
 
