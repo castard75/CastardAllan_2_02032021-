@@ -4,7 +4,7 @@
 
 
 
-@media (max-width: 767.98px){
+@media screen and (max-width: 767.98px){
 
 
     .col-8 {
@@ -327,7 +327,7 @@ justify-content: center;
 
 
 
-@media (min-width: 768px){ 
+@media screen and (min-width: 768px){ 
 
 
 
@@ -593,7 +593,7 @@ justify-content: center;
 
  
 
-@media (min-width: 1200px)   {
+@media screen and (min-width: 1200px)   {
     .col-8 {
         flex: 0 0 auto;
         width: 66.6666666667%;
@@ -908,6 +908,14 @@ grid-template-rows: none;
     font-family: 'Raleway', sans-serif;
     padding-left: 40px;
 }
+     
+.Inscription {
+
+padding-right: 5vw;
+   grid-area: revert;
+    justify-self: end;
+}
+
         }
 
 
