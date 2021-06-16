@@ -494,7 +494,11 @@ font-size: 15px;
 }
 
 
+.FiltreTitre{
 
+
+width: 100%
+}
 
 
 .paragraphe {
@@ -940,11 +944,22 @@ transition-duration: 0.2s;
     color: gray;
 }
 
+.boxwrapimg {
 
+    position: relative;
+    flex: 1;
+}
 
+.boximg{
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 .box{
     border-radius: 25px 25px 25px 25px;
-    box-shadow: 1px 1px 12px #555;
+    box-shadow: 1px 1px 12px #b6b6b6;
     display: flex;
     flex-direction: column;
     margin: 17px;
@@ -957,9 +972,10 @@ transition-duration: 0.2s;
 
 .box a {
     text-decoration: none;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     height: 100%;
-    grid-template-rows: 1fr 50px;
+
 }
 
 .box img{

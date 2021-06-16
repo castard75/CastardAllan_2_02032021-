@@ -67,11 +67,12 @@ margin: 10px;
     #conteneur
     {
         
-      margin: 4rem 0;
-display: flex;
-flex-direction: column;
-align-items: center;
-margin-bottom: 40px;
+display: grid;
+column-gap: 2rem;
+margin: 4rem 0;
+row-gap: 2rem;
+grid-template-columns: 1fr;
+grid-template-rows: auto 16rem 16rem 16rem 16rem 16rem 16rem;
     }
 
 .box:hover {
@@ -86,7 +87,7 @@ transition-duration: 0.2s;
     display: flex;
     flex-direction: column;
     margin: 17px;
-    width: 90%;
+    width: auto;
 }
     .box h3 {
       padding-left: 15px;
@@ -131,6 +132,7 @@ height: 100%;
 align-items: center;
 margin-right: 35px;
 margin-top: 4px;
+
 }
 
 .Filtres {
@@ -229,12 +231,12 @@ font-family: 'Raleway', sans-serif;
 
 
 .Lien {
-    color: #0065FC;
-    border-bottom: 3px solid #F2F2F2 ;
+    border-bottom: 3px solid #0065FC;
+color: #0065FC;
     border-top: inherit;
 }
 
-.Lien:hover {
+Lien:hover {
     border-bottom: 3px solid #0065FC;
 color: #0065FC;
     }
